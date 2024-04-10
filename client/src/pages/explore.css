@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: "Times", sans-serif;
+}
+
+.explore-page {
+  text-align: center;
+}
+
+.single-recipe {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}

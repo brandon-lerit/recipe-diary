@@ -1,0 +1,60 @@
+
+.featured-recipes .recipe-card img {
+  width: 200px; /* Set the width of the image */
+  height: auto; 
+}
+  
+/* FeaturedRecipes component styling */
+.featured-recipes {
+  text-align: center;
+  padding: 20px;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Create a responsive grid layout */
+  gap: 20px; /* Adjust the gap between items */
+  justify-content: center;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.recipe-card img {
+  max-width: 100%; /* Set a maximum width for images */
+  height: auto;
+  border-radius: 5px;
+}
+
+
+/* RecipeCategories component styling */
+.recipe-categories {
+  text-align: center;
+  padding: 20px;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Create a responsive grid layout */
+  gap: 20px; /* Adjust the gap between items */
+  justify-content: center;
+}
+
+.category-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.category-item img {
+  max-width: 100%; /* Make sure images fill their containers */
+  height: auto;
+  border-radius: 5px;
+}
+
+
+

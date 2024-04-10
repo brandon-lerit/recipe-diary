@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.container .input-container {
+    border: 2px solid black; 
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+} 
+
+.container .input-container div {
+    padding: 10px;
+}
+
+.container div input {
+    width: 100%;
+    text-align: center;
+}
+
+.container div textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+}
+
+.container button {
+    margin-top: 1%;
+}

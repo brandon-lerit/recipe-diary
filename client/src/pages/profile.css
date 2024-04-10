@@ -1,0 +1,13 @@
+html{
+    margin: 20%;
+    text-align: center;
+}
+.profile_posts{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    justify-content:center baseline;
+    list-style: none;
+    margin-top: 15px;
+    margin-right: 10px;
+        
+}
